@@ -1,0 +1,20 @@
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Dataset
+*.csv
+
+# CatBoost temporary files
+catboost_info/
+*.cbm
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.*
