@@ -112,13 +112,9 @@ Notebook menggunakan validation set dan *early stopping* untuk menghindari itera
 
 Kompetisi menggunakan **Macro F1-Score**, yaitu rata-rata F1 seluruh kelas tanpa membobotkan berdasarkan jumlah sampel:
 
-\[
-F1 = \frac{2\,Precision\,Recall}{Precision+Recall}
-\]
+$$F1 = \frac{2\,Precision\,Recall}{Precision+Recall}$$
 
-\[
-Macro\ F1 = \frac{F1_1+F1_2+F1_3+F1_4+F1_5}{5}
-\]
+$$Macro\ F1 = \frac{F1_1+F1_2+F1_3+F1_4+F1_5}{5}$$
 
 - **Precision**: proporsi prediksi suatu kelas yang benar.
 - **Recall**: proporsi data aktual suatu kelas yang berhasil dikenali.
